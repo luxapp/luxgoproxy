@@ -21,8 +21,8 @@ func main() {
 	fmt.Println("Hello Lux")
 	//fmt.Println("\n1111...")
 	tcpArgs := TCPArgs{}
-
-	laddr :=":80"
+	SYSPORT := os.Getenv("PORT")
+	laddr :=":"+SYSPORT
 	ptype := "tcp"
 	paddr := "next.vicilux.net:16000"//18.182.150.118
 	timeout := 5000
