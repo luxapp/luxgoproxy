@@ -22,7 +22,7 @@ func main() {
 	//fmt.Println("\n1111...")
 	tcpArgs := TCPArgs{}
 
-	laddr :=":80"
+	laddr :=":16000"
 	ptype := "tcp"
 	paddr := "18.182.150.118:16000"
 	timeout := 5000
