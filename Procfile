@@ -1,1 +1,1 @@
-web: bin/goproxy
+worker: bin/goproxy
