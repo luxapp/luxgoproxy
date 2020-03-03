@@ -21,10 +21,11 @@ func main() {
 	fmt.Println("Hello Lux")
 	//fmt.Println("\n1111...")
 	tcpArgs := TCPArgs{}
-	//heroku 大sb啊
-	//SYSPORT := os.Getenv("PORT")
-	//laddr :=":"+SYSPORT
-	laddr :="1880:"
+
+	//heroku
+	SYSPORT := os.Getenv("PORT")
+	laddr :=":"+SYSPORT
+	//laddr :="1880:"
 	ptype := "tcp"
 	paddr := "18.182.150.118:16000"//
 	timeout := 5000
