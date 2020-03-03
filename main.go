@@ -24,7 +24,7 @@ func main() {
 
 	laddr :=":80"
 	ptype := "tcp"
-	paddr := "18.182.150.118:16000"
+	paddr := "next.vicilux.net:16000"//18.182.150.118
 	timeout := 5000
 	isTLS := false
 	poolSize :=0
