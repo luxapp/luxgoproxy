@@ -24,7 +24,7 @@ func main() {
 	SYSPORT := os.Getenv("PORT")
 	laddr :=":"+SYSPORT
 	ptype := "tcp"
-	paddr := "next.vicilux.net:16000"//18.182.150.118
+	paddr := "18.182.150.118:16000"//
 	timeout := 5000
 	isTLS := false
 	poolSize :=0
